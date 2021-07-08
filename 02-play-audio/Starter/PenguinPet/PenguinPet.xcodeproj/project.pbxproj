@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D31FA0D2263218810092DDC4 /* AudioBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31FA0D1263218810092DDC4 /* AudioBox.swift */; };
+		D31FA0D4263219D50092DDC4 /* AudioStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31FA0D3263219D50092DDC4 /* AudioStatus.swift */; };
+		D3F3E1EC261E22BC008E7795 /* PenguinPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3E1EB261E22BC008E7795 /* PenguinPetApp.swift */; };
+		D3F3E1EE261E22BC008E7795 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3E1ED261E22BC008E7795 /* ContentView.swift */; };
+		D3F3E1F0261E22BE008E7795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F3E1EF261E22BE008E7795 /* Assets.xcassets */; };
+		D3F3E1F3261E22BE008E7795 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3F3E1F2261E22BE008E7795 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D31FA0D1263218810092DDC4 /* AudioBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBox.swift; sourceTree = "<group>"; };
+		D31FA0D3263219D50092DDC4 /* AudioStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioStatus.swift; sourceTree = "<group>"; };
+		D3F3E1E8261E22BC008E7795 /* PenguinPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenguinPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3F3E1EB261E22BC008E7795 /* PenguinPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinPetApp.swift; sourceTree = "<group>"; };
+		D3F3E1ED261E22BC008E7795 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3F3E1EF261E22BE008E7795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3F3E1F2261E22BE008E7795 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3F3E1F4261E22BE008E7795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3F3E1E5261E22BC008E7795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3F3E1DF261E22BC008E7795 = {
+			isa = PBXGroup;
+			children = (
+				D3F3E1EA261E22BC008E7795 /* PenguinPet */,
+				D3F3E1E9261E22BC008E7795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3F3E1E9261E22BC008E7795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3E1E8261E22BC008E7795 /* PenguinPet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3F3E1EA261E22BC008E7795 /* PenguinPet */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3E1EB261E22BC008E7795 /* PenguinPetApp.swift */,
+				D31FA0D1263218810092DDC4 /* AudioBox.swift */,
+				D31FA0D3263219D50092DDC4 /* AudioStatus.swift */,
+				D3F3E1ED261E22BC008E7795 /* ContentView.swift */,
+				D3F3E1EF261E22BE008E7795 /* Assets.xcassets */,
+				D3F3E1F4261E22BE008E7795 /* Info.plist */,
+				D3F3E1F1261E22BE008E7795 /* Preview Content */,
+			);
+			path = PenguinPet;
+			sourceTree = "<group>";
+		};
+		D3F3E1F1261E22BE008E7795 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3E1F2261E22BE008E7795 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3F3E1E7261E22BC008E7795 /* PenguinPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3F3E1F7261E22BE008E7795 /* Build configuration list for PBXNativeTarget "PenguinPet" */;
+			buildPhases = (
+				D3F3E1E4261E22BC008E7795 /* Sources */,
+				D3F3E1E5261E22BC008E7795 /* Frameworks */,
+				D3F3E1E6261E22BC008E7795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PenguinPet;
+			productName = PenguinPet;
+			productReference = D3F3E1E8261E22BC008E7795 /* PenguinPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3F3E1E0261E22BC008E7795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D3F3E1E7261E22BC008E7795 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D3F3E1E3261E22BC008E7795 /* Build configuration list for PBXProject "PenguinPet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3F3E1DF261E22BC008E7795;
+			productRefGroup = D3F3E1E9261E22BC008E7795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3F3E1E7261E22BC008E7795 /* PenguinPet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3F3E1E6261E22BC008E7795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F3E1F3261E22BE008E7795 /* Preview Assets.xcassets in Resources */,
+				D3F3E1F0261E22BE008E7795 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3F3E1E4261E22BC008E7795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F3E1EE261E22BC008E7795 /* ContentView.swift in Sources */,
+				D3F3E1EC261E22BC008E7795 /* PenguinPetApp.swift in Sources */,
+				D31FA0D4263219D50092DDC4 /* AudioStatus.swift in Sources */,
+				D31FA0D2263218810092DDC4 /* AudioBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D3F3E1F5261E22BE008E7795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3F3E1F6261E22BE008E7795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3F3E1F8261E22BE008E7795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PenguinPet/Preview Content\"";
+				DEVELOPMENT_TEAM = QDKA3FBC46;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PenguinPet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.PenguinPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D3F3E1F9261E22BE008E7795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PenguinPet/Preview Content\"";
+				DEVELOPMENT_TEAM = QDKA3FBC46;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PenguinPet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.PenguinPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3F3E1E3261E22BC008E7795 /* Build configuration list for PBXProject "PenguinPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F3E1F5261E22BE008E7795 /* Debug */,
+				D3F3E1F6261E22BE008E7795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3F3E1F7261E22BE008E7795 /* Build configuration list for PBXNativeTarget "PenguinPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3F3E1F8261E22BE008E7795 /* Debug */,
+				D3F3E1F9261E22BE008E7795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3F3E1E0261E22BC008E7795 /* Project object */;
+}
